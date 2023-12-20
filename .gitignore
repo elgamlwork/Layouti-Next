@@ -84,7 +84,7 @@ web_modules/
 .parcel-cache
 
 # Next.js build output
-.next
+
 out
 
 # Nuxt.js build / generate output
@@ -130,3 +130,6 @@ dist
 .pnp.*
 
 .DS_Store
+
+
+.next

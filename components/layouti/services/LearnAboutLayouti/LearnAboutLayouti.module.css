@@ -1,0 +1,14 @@
+.root {
+  background-color: #f7f9fc;
+  padding: 90px 0 140px 0;
+  @media (max-width: 600px) {
+    padding: 60px 0 70px 0;
+  }
+}
+
+.desc {
+  a {
+    color: var(--mantine-color-layoutigreen-6) !important;
+    text-decoration: underline;
+  }
+}

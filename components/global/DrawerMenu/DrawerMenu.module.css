@@ -1,0 +1,54 @@
+.content {
+  background-color: var(--mantine-color-layoutidark-6) !important;
+}
+.header {
+  display: none !important;
+}
+.headerTop {
+  height: rem(110px);
+  margin-bottom: rem(50px);
+  background-color: "transparent";
+  width: 100%;
+  transition: all 0.2s linear;
+  z-index: 100;
+}
+
+.innerTop {
+  height: rem(110px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  width: fit-content;
+  font-size: var(--mantine-font-size-sm);
+  padding-top: rem(3px);
+  padding-bottom: rem(3px);
+  position: relative;
+  transition: all 0.2s linear;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--mantine-color-layoutigreen-6);
+    transition: all 0.2s linear;
+  }
+  &:hover {
+    color: var(--mantine-color-layoutigreen-6) !important;
+    &::after {
+      width: 100%;
+    }
+  }
+  &[data-green] {
+    color: #000;
+    color: var(--mantine-color-layoutigreen-6) !important;
+    &::after {
+      width: 100%;
+    }
+  }
+}

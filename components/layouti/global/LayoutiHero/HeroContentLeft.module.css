@@ -1,0 +1,35 @@
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+  position: relative;
+  height: 80vh;
+
+  @media (max-width: 600px) {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+
+.control {
+  margin-top: calc(var(--mantine-spacing-xl) * 1.5);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+  }
+}
+
+.describtion {
+  a {
+    color: var(--mantine-color-layoutigreen-6) !important;
+    text-decoration: underline;
+  }
+}

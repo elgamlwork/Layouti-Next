@@ -1,0 +1,36 @@
+.worksCardConteiner {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  @media (max-width: 600px) {
+    border: 1px solid #e8e8e8;
+  }
+  &:hover {
+    border: 1px solid #e8e8e8;
+    .image {
+      transform: scale(1.1);
+    }
+    .worksCardTitle {
+      bottom: 0;
+    }
+  }
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  transition: all 0.2s ease-in-out;
+}
+
+.worksCardTitle {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  @media (max-width: 600px) {
+    bottom: 0px;
+  }
+}

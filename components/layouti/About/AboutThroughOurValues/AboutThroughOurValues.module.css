@@ -1,0 +1,11 @@
+.root {
+  background-color: #f7f9fc;
+  padding: 80px 0px;
+}
+
+.desc {
+  a {
+    color: var(--mantine-color-layoutigreen-6) !important;
+    text-decoration: underline;
+  }
+}

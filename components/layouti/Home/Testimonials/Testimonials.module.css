@@ -1,0 +1,20 @@
+.testimonials {
+  background-color: #f7f9fc;
+  padding: 150px 0px;
+
+  @media (max-width: 600px) {
+    padding: 50px 0px;
+  }
+}
+
+.stikySection {
+  position: sticky;
+  top: 145px; /* Adjust as needed */
+}
+
+.desc {
+  a {
+    color: var(--mantine-color-layoutigreen-6) !important;
+    text-decoration: underline;
+  }
+}

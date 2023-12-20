@@ -1,0 +1,14 @@
+body::-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
+}
+
+.space {
+  @media (max-width: 600px) {
+    display: none !important;
+  }
+}
+
+.mantine-Accordion-control:hover {
+  background-color: transparent !important;
+}

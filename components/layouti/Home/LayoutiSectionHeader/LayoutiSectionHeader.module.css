@@ -1,0 +1,6 @@
+.desc {
+  a {
+    color: var(--mantine-color-layoutigreen-6) !important;
+    text-decoration: underline;
+  }
+}
